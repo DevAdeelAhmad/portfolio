@@ -70,6 +70,7 @@ export const projectsData = [
     "I am currently working on this project as a full-stack developer. It is an Online Leather Store. It also has an admin dashboard.",
     tags: ["Next.js", "React",  "MongoDB", "Tailwind", "TypeScript", "AWS S3"],
     imageUrl: empyreal,
+    link : "https://empyreal-attire.vercel.app/"
   },
   {
     title: "Simple Portfolio",
@@ -77,6 +78,7 @@ export const projectsData = [
       "This is a simple portfolio I have created for myself. It has GuestBook Page, Projects and Intro Page and also it showcases my skills.",
     tags: ["Next.js", "React",  "Sanity.io", "Tailwind", "TypeScript"],
     imageUrl: simplePortfolio,
+    link : "https://devadeelsimpleportfolio.vercel.app/"
   },
   {
     title: "Renaissance Art",
@@ -84,6 +86,7 @@ export const projectsData = [
       "This is an old project I did for my Fiverr client. It's like an one page blog.",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     imageUrl: renaissance,
+    link : "https://devadeelahmad.github.io/RenaissanceArt/"
   },
   {
     title: "Hope Medical",
@@ -91,6 +94,7 @@ export const projectsData = [
       "This is a website I created for my client on Fiverr and this is a paid template and I configured it according to my client's needs.",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     imageUrl: hope,
+    link : "https://devadeelahmad.github.io/HopeMedical/"
   },
   {
     title: "Max Vid",
@@ -98,6 +102,7 @@ export const projectsData = [
       "This is an old project I did for my Fiverr client. It was a paid template and I had to configure it according to his needs.",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     imageUrl: maxvid,
+    link : "https://devadeelahmad.github.io/MaxVid/"
   },
   {
     title: "3d-Et",
@@ -105,6 +110,7 @@ export const projectsData = [
       "This is an old project I did for my Fiverr client. It was for his physical workshop where he did 3d Printing.",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     imageUrl: printing,
+    link : "https://devadeelahmad.github.io/3dPrinting/"
   },
 ] as const;
 
@@ -129,5 +135,6 @@ export const skillsData = [
   "Git",
   "HTML",
   "CSS",
+  "SCSS",
   "JavaScript",
 ] as const;

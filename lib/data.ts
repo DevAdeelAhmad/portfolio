@@ -2,9 +2,12 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import empyreal from "@/public/empyreal_attire.webp"
+import printing from "@/public/3d-printing.webp"
+import maxvid from "@/public/maxvid.webp"
+import renaissance from "@/public/renaissance-art.webp"
+import simplePortfolio from "@/public/simple-portfolio.png"
+import hope from "@/public/hope-medical.webp"
 
 export const links = [
   {
@@ -35,73 +38,96 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Front-End Freelancer",
+    location: "Fiverr, Remote",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    "I worked as a front-end developer for 6 months at Fiverr. But it was effecting my studies so I stopped after working for 6 months. Some of the project from my Fiverr journey are in the Projects Section",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020 - 2021",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Lahore, Pk",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to remote opportunities.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
+  },
+  {
+    title: "Graduation",
+    location: "Lahore, Pk",
+    description:
+      "I'll graduate in BS Software Engineering in 2024 from COMSATS, Lhr. Then I will work full-time.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Empyreal Attire",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    "I am currently working on this project as a full-stack developer. It is an Online Leather Store. It also has an admin dashboard.",
+    tags: ["Next.js", "React",  "MongoDB", "Tailwind", "TypeScript", "AWS S3"],
+    imageUrl: empyreal,
   },
   {
-    title: "rmtDev",
+    title: "Simple Portfolio",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "This is a simple portfolio I have created for myself. It has GuestBook Page, Projects and Intro Page and also it showcases my skills.",
+    tags: ["Next.js", "React",  "Sanity.io", "Tailwind", "TypeScript"],
+    imageUrl: simplePortfolio,
   },
   {
-    title: "Word Analytics",
+    title: "Renaissance Art",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "This is an old project I did for my Fiverr client. It's like an one page blog.",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    imageUrl: renaissance,
+  },
+  {
+    title: "Hope Medical",
+    description:
+      "This is a website I created for my client on Fiverr and this is a paid template and I configured it according to my client's needs.",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    imageUrl: hope,
+  },
+  {
+    title: "Max Vid",
+    description:
+      "This is an old project I did for my Fiverr client. It was a paid template and I had to configure it according to his needs.",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    imageUrl: maxvid,
+  },
+  {
+    title: "3d-Et",
+    description:
+      "This is an old project I did for my Fiverr client. It was for his physical workshop where he did 3d Printing.",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    imageUrl: printing,
   },
 ] as const;
 
 export const skillsData = [
+  "NextJs",
+  "ReactJs",
+  "NodeJs",
+  "ExpressJs",
+  "MongoDB",
+  "Tailwind",
+  "TypeScript",
+  "Redux",
+  "AWS S3",
+  "PostgreSQL",
+  "GraphQL",
+  "Framer Motion",
+  "Shad Cdn",
+  "FlowBite",
+  "Vercel",
+  "Prisma",
+  "Sanity.io",
+  "Git",
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;

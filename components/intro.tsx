@@ -9,8 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import pic from '@/public/Adeel Ahmad.jpg'
-// import pic from '@/public/AdeelAhmad1.png'
+import pic from '@/public/AdeelAhmad1.png'
 
 
 export default function Intro() {

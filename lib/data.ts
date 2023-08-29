@@ -79,7 +79,7 @@ export const projectsData = [
     description:
       "This is a website built for my client on Fiverr. This website shows my strong grip on Front-End.(It's in progress)",
     tags: ["Next.js", "Three.Js", "Framer Motion", "TailwindCSS", "TypeScript"],
-    imageUrl: simplePortfolio,
+    imageUrl: bOne,
     link: "https://b-one-consulting.vercel.app/",
   },
   {

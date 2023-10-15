@@ -68,9 +68,9 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Stupid Monkeys - NFT Website",
+    title: "NFT Website",
     description:
-      "Stupid Monkeys is a NFT Website. I have developed this website for my Client on Fiverr. The client provided a design on Adobe Xd and developed this website according to it.",
+      "Stupid Monkeys is a NFT Website. I have developed this website for my Client on Fiverr. The client provided a design and I developed this website according to it.",
     tags: [
       "Next.js 13.5",
       "ReactJs",

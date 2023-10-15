@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import stupidMonkeys from "@/public/StupidMonkeys.png";
 import empyreal from "@/public/empyreal_attire.webp";
 import dbit from "@/public/DBIT - Mining Platform.png";
 import bOne from "@/public/B-one.png";
@@ -67,6 +68,23 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Stupid Monkeys - NFT Website",
+    description:
+      "Stupid Monkeys is a NFT Website. I have developed this website for my Client on Fiverr. This website is true demonstration of my skills. The client provided a design on Adobe Xd and developed this website according to it.",
+    tags: [
+      "Next.js 13.5",
+      "ReactJs",
+      "ThreeJs",
+      "TailwindCSS",
+      "TypeScript",
+      "Framer Motion",
+      "React Hooks",
+      "IPFS Image Fetching",
+    ],
+    imageUrl: stupidMonkeys,
+    link: "https://stupid-monkeys.vercel.app/",
+  },
+  {
     title: "DBIT - Mining Platform",
     description:
       "This is a mining platform I have created for my Fiverr Client. I have done the Front-End Part Only.",
@@ -86,7 +104,14 @@ export const projectsData = [
     title: "Empyreal Attire",
     description:
       "I am currently working on this project as a full-stack developer. It is an Online Leather Store. It also has an admin dashboard.",
-    tags: ["Next.js", "React", "MongoDB", "TailwindCSS", "TypeScript", "AWS S3"],
+    tags: [
+      "Next.js",
+      "React",
+      "MongoDB",
+      "TailwindCSS",
+      "TypeScript",
+      "AWS S3",
+    ],
     imageUrl: empyreal,
     link: "https://empyreal-attire.vercel.app/",
   },

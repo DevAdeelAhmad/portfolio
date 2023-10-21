@@ -11,6 +11,7 @@ import maxvid from "@/public/maxvid.webp";
 import renaissance from "@/public/renaissance-art.webp";
 import simplePortfolio from "@/public/simple-portfolio.png";
 import hope from "@/public/hope-medical.webp";
+import mentalHq from "@/public/mentalHq.png";
 
 export const links = [
   {
@@ -122,6 +123,14 @@ export const projectsData = [
     tags: ["Next.js", "React", "Sanity.io", "Tailwind", "TypeScript"],
     imageUrl: simplePortfolio,
     link: "https://devadeelsimpleportfolio.vercel.app/",
+  },
+  {
+    title: "Mental HQ",
+    description:
+      "I developed this landing page for my client in just one day, accroding to the design.",
+    tags: ["NextJs", "Typescript", "TailwindCSS", "Framer Motion"],
+    imageUrl: mentalHq,
+    link: "https://mental-hq.vercel.app/",
   },
   {
     title: "Renaissance Art",

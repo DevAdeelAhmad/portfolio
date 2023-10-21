@@ -73,13 +73,11 @@ export const projectsData = [
     description:
       "Stupid Monkeys is a NFT Website. I have developed this website for my Client on Fiverr. The client provided a design and I developed this website according to it.",
     tags: [
-      "Next.js 13.5",
+      "Next.js",
       "ReactJs",
       "ThreeJs",
-      "TailwindCSS",
       "TypeScript",
       "Framer Motion",
-      "React Hooks",
       "IPFS Image Fetching",
     ],
     imageUrl: stupidMonkeys,

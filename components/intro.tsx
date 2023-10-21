@@ -5,11 +5,11 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import pic from '@/public/AdeelAhmad1.png'
+import darkPic from '@/public/dark.png'
 
 
 export default function Intro() {
@@ -35,11 +35,11 @@ export default function Intro() {
             <Image
               src={pic}
               alt="Adeel Ahmad Pic"
-              width="192"
-              height="192"
-              quality="95"
+              width="300"
+              height="300"
+              quality="100"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-44 w-44 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
@@ -107,6 +107,11 @@ export default function Intro() {
         >
           <FaGithubSquare />
         </a>
+        <p className="px-5 text-gray-700 dark:text-white/80 hover:underline-offset-4 hover:underline text-xl hover:scale-[1.15] focus:scale-[1.10] hover:text-violet-500 dark:hover:text-violet-500">
+        <Link href='https://linktr.ee/devadeelahmad'>
+          Linktr.ee
+        </Link>
+      </p>
       </motion.div>
     </section>
   );

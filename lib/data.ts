@@ -12,6 +12,7 @@ import renaissance from "@/public/renaissance-art.webp";
 import simplePortfolio from "@/public/simple-portfolio.png";
 import hope from "@/public/hope-medical.webp";
 import mentalHq from "@/public/mentalHq.png";
+import linden from "@/public/linden1.png";
 
 export const links = [
   {
@@ -45,7 +46,7 @@ export const experiencesData = [
     title: "Front-End Freelancer",
     location: "Fiverr, Remote",
     description:
-      "I worked as a front-end developer for 6 months at Fiverr. But it was effecting my studies so I stopped after working for 6 months. Some of the project from my Fiverr journey are in the Projects Section",
+      "I worked as a front-end developer for 6 months at Fiverr. But it was effecting my studies so I stopped after working for 6 months. Some of the project from my Fiverr journey are at the last in the Projects Section",
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2021",
   },
@@ -115,6 +116,21 @@ export const projectsData = [
     link: "https://empyreal-attire.vercel.app/",
   },
   {
+    title: "Empyreal Attire",
+    description:
+      "I am currently working on this project as a full-stack developer. It is an Online Leather Store. It also has an admin dashboard.",
+    tags: [
+      "Next.js",
+      "React",
+      "MongoDB",
+      "TailwindCSS",
+      "TypeScript",
+      "AWS S3",
+    ],
+    imageUrl: empyreal,
+    link: "https://empyreal-attire.vercel.app/",
+  },
+  {
     title: "Simple Portfolio",
     description:
       "This is a simple portfolio I have created for myself. It has GuestBook Page, Projects and Intro Page and also it showcases my skills.",
@@ -129,6 +145,14 @@ export const projectsData = [
     tags: ["NextJs", "Typescript", "TailwindCSS", "Framer Motion"],
     imageUrl: mentalHq,
     link: "https://mental-hq.vercel.app/",
+  },
+  {
+    title: "Linden Homes",
+    description:
+      "I developed this landing page for my client in just one day, accroding to the design.",
+    tags: ["NextJs", "Typescript", "TailwindCSS", "Framer Motion"],
+    imageUrl: linden,
+    link: "https://linden-homes.vercel.app/",
   },
   {
     title: "Renaissance Art",
@@ -170,21 +194,24 @@ export const skillsData = [
   "NodeJs",
   "ExpressJs",
   "MongoDB",
-  "Tailwind",
+  "Tailwind CSS",
+  "JavaScript",
   "TypeScript",
   "Redux",
   "AWS S3",
   "PostgreSQL",
   "GraphQL",
   "Framer Motion",
-  "Shad Cdn",
+  "Shadcn/ui",
   "FlowBite",
   "Vercel",
   "Prisma",
   "Sanity.io",
   "Git",
+  "Wordpress",
+  "Elementor",
   "HTML",
   "CSS",
   "SCSS",
-  "JavaScript",
+  "Bootstrap",
 ] as const;

@@ -116,21 +116,6 @@ export const projectsData = [
     link: "https://empyreal-attire.vercel.app/",
   },
   {
-    title: "Empyreal Attire",
-    description:
-      "I am currently working on this project as a full-stack developer. It is an Online Leather Store. It also has an admin dashboard.",
-    tags: [
-      "Next.js",
-      "React",
-      "MongoDB",
-      "TailwindCSS",
-      "TypeScript",
-      "AWS S3",
-    ],
-    imageUrl: empyreal,
-    link: "https://empyreal-attire.vercel.app/",
-  },
-  {
     title: "Simple Portfolio",
     description:
       "This is a simple portfolio I have created for myself. It has GuestBook Page, Projects and Intro Page and also it showcases my skills.",

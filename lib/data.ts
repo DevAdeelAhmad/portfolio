@@ -1,19 +1,19 @@
+import printing from "@/public/3d-printing.webp";
+import bOne from "@/public/B-one.png";
+import dbit from "@/public/DBIT - Mining Platform.png";
+import stupidMonkeys from "@/public/StupidMonkeys.png";
+import empyreal from "@/public/empyreal_attire.webp";
+import hope from "@/public/hope-medical.webp";
+import linden from "@/public/linden1.png";
+import maxvid from "@/public/maxvid.webp";
+import mentalHq from "@/public/mentalHq.png";
+import nike from "@/public/nike.png";
+import autoOne from "@/public/AutoOne.png";
+import renaissance from "@/public/renaissance-art.webp";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import stupidMonkeys from "@/public/StupidMonkeys.png";
-import empyreal from "@/public/empyreal_attire.webp";
-import dbit from "@/public/DBIT - Mining Platform.png";
-import bOne from "@/public/B-one.png";
-import printing from "@/public/3d-printing.webp";
-import maxvid from "@/public/maxvid.webp";
-import renaissance from "@/public/renaissance-art.webp";
-import simplePortfolio from "@/public/simple-portfolio.png";
-import hope from "@/public/hope-medical.webp";
-import mentalHq from "@/public/mentalHq.png";
-import linden from "@/public/linden1.png";
-
 export const links = [
   {
     name: "Home",
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Lahore, Pk",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to remote opportunities.",
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, NextJs, TypeScript, Tailwind, Prisma and MongoDB. I'm open to remote opportunities.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
@@ -70,63 +70,65 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "NFT Website",
+    title: "Stupid Monkeys",
     description:
-      "Stupid Monkeys is a NFT Website. I have developed this website for my Client on Fiverr. The client provided a design and I developed this website according to it.",
+      "A magnificent NFT Website. I developed this website for my Client. It's developed according to the design guidelines.",
     tags: [
-      "Next.js",
+      "NextJs",
       "ReactJs",
       "ThreeJs",
       "TypeScript",
       "Framer Motion",
-      "IPFS Image Fetching",
+      "IPFS",
+      "Web3",
     ],
     imageUrl: stupidMonkeys,
     link: "https://stupid-monkeys.vercel.app/",
   },
   {
-    title: "DBIT - Mining Platform",
+    title: "Nike Clone",
     description:
-      "This is a mining platform I have created for my Fiverr Client. I have done the Front-End Part Only.",
-    tags: ["Next.js", "React", "TailwindCSS", "TypeScript"],
-    imageUrl: dbit,
-    link: "https://dbit-devadeelahmad.vercel.app/",
+      "The client wanted the clone of Original Nike Website. I have worked on the Front End Only in a team.",
+    tags: ["NextJs", "ReactJs", "TypeScript", "TailwindCSS", "Shadcn/ui"],
+    imageUrl: nike,
+    link: "https://nike-adeelahmad.vercel.app/",
   },
   {
     title: "B-one Consulting",
     description:
-      "This is a website built for my client on Fiverr. This website shows my strong grip on Front-End.(It's in progress)",
-    tags: ["Next.js", "Three.Js", "Framer Motion", "TailwindCSS", "TypeScript"],
+      "This is a website built for my client on Fiverr. This website shows my strong grip on Front-End.",
+    tags: ["NextJs", "Three.Js", "Framer Motion", "TailwindCSS", "TypeScript"],
     imageUrl: bOne,
     link: "https://b-one-consulting.vercel.app/",
+  },
+  {
+    title: "Auto-one",
+    description:
+      "This is a website I built for my local client. He has a car dealership app and he wanted a showcase website according to the Figma Design. ",
+    tags: ["ReactJs", "Framer Motion", "TailwindCSS", "JavaScript"],
+    imageUrl: autoOne,
+    link: "https://auto-one-dev.vercel.app/",
+  },
+  {
+    title: "DBIT - Mining Platform",
+    description:
+      "This is a mining platform I have created for my Fiverr Client. I have done the Front-End Part Only.",
+    tags: ["NextJs", "React", "TailwindCSS", "TypeScript"],
+    imageUrl: dbit,
+    link: "https://dbit-devadeelahmad.vercel.app/",
   },
   {
     title: "Empyreal Attire",
     description:
       "I am currently working on this project as a full-stack developer. It is an Online Leather Store. It also has an admin dashboard.",
-    tags: [
-      "Next.js",
-      "React",
-      "MongoDB",
-      "TailwindCSS",
-      "TypeScript",
-      "AWS S3",
-    ],
+    tags: ["NextJs", "React", "MongoDB", "TailwindCSS", "TypeScript", "AWS S3"],
     imageUrl: empyreal,
     link: "https://empyreal-attire.vercel.app/",
   },
   {
-    title: "Simple Portfolio",
-    description:
-      "This is a simple portfolio I have created for myself. It has GuestBook Page, Projects and Intro Page and also it showcases my skills.",
-    tags: ["Next.js", "React", "Sanity.io", "Tailwind", "TypeScript"],
-    imageUrl: simplePortfolio,
-    link: "https://devadeelsimpleportfolio.vercel.app/",
-  },
-  {
     title: "Mental HQ",
     description:
-      "I developed this landing page for my client in just one day, accroding to the design.",
+      "I developed this landing page for my client in just one day, according to the design.",
     tags: ["NextJs", "Typescript", "TailwindCSS", "Framer Motion"],
     imageUrl: mentalHq,
     link: "https://mental-hq.vercel.app/",
@@ -134,7 +136,7 @@ export const projectsData = [
   {
     title: "Linden Homes",
     description:
-      "I developed this landing page for my client in just one day, accroding to the design.",
+      "I developed this landing page for my client in just one day, according to the design.",
     tags: ["NextJs", "Typescript", "TailwindCSS", "Framer Motion"],
     imageUrl: linden,
     link: "https://linden-homes.vercel.app/",
@@ -178,25 +180,31 @@ export const skillsData = [
   "ReactJs",
   "NodeJs",
   "ExpressJs",
-  "MongoDB",
-  "Tailwind CSS",
-  "JavaScript",
   "TypeScript",
+  "JavaScript",
+  "Solidity",
+  "Git",
+  "MongoDB",
   "Redux",
+  "Tailwind CSS",
+  "Vercel",
   "AWS S3",
   "PostgreSQL",
   "GraphQL",
   "Framer Motion",
   "Shadcn/ui",
   "FlowBite",
-  "Vercel",
   "Prisma",
   "Sanity.io",
-  "Git",
   "Wordpress",
   "Elementor",
   "HTML",
   "CSS",
   "SCSS",
   "Bootstrap",
+  "C",
+  "C++",
+  "C#",
+  "Java",
+  "GO"
 ] as const;

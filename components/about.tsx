@@ -19,25 +19,24 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am currently a student of BS Software Engineering in{" "}
-        <span className="font-medium">COMSATS</span>, I decided to pursue my
-        passion for programming.{" "}
+        I am a graduate with a degree in{" "}
+        <span className="font-medium">BS Software Engineering</span> from{" "}
+        <span className="font-medium">COMSATS</span>. I am currently working as a{" "}
+        <span className="font-medium">Frontend Team Lead</span> at Greyfibre, while also{" "}
+        <span className="font-medium">freelancing on Upwork</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+          Next.js, TypeScript, TailwindCSS, and React Native</span>
+        . I am also familiar with Python, Django, and PostgreSQL. I am always looking to
+        learn new technologies and expand my skillset.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and going out with friends and family. I also enjoy{" "}
+        video games, and going out with friends and family. I also enjoy{" "}
         <span className="font-medium">learning new things</span>.
       </p>
     </motion.section>

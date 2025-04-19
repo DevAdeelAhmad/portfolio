@@ -43,29 +43,37 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Front-End Freelancer",
-    location: "Fiverr, Remote",
+    title: "Software Engineer",
+    location: "Greyfibre · Remote",
     description:
-      "I worked as a front-end developer for 6 months at Fiverr. But it was effecting my studies so I stopped after working for 6 months. Some of the project from my Fiverr journey are at the last in the Projects Section",
+      "I am leading the frontend development at Greyfibre, working on a SaaS application. My role involves architecting and developing the frontend using Next.js and TypeScript, while closely collaborating with backend engineers working with Django and Python.",
+    icon: React.createElement(FaReact),
+    date: "Oct 2024 - Present",
+  },
+  {
+    title: "Software Engineer",
+    location: "CRAFTR · Netherlands · Remote",
+    description:
+      "As a Software Engineer at CRAFTR, I contributed to the development of cutting-edge AI SaaS applications. I leveraged my expertise in Next.js and TypeScript to build scalable and efficient software solutions.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Feb 2024 - Sep 2024",
+  },
+  {
+    title: "Full Stack Developer",
+    location: "Upwork · Freelance · Remote",
+    description:
+      "I work as a Full Stack Developer at Upwork, specializing in AI SAAS Applications with NextJs, React Native, PostgreSQL, Unipile and other technologies as per requirements. My role involves collaborating with global clients to deliver high-quality solutions.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Dec 2023 - Present",
+  },
+  {
+    title: "Front-End Freelancer",
+    location: "Fiverr · Remote",
+    description:
+      "I worked as a front-end developer for 6 months at Fiverr. But it was affecting my studies so I stopped after working for 6 months. Some of the projects from my Fiverr journey are at the last in the Projects Section.",
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Lahore, Pk",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, NextJs, TypeScript, Tailwind, Prisma and MongoDB. I'm open to remote opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-  {
-    title: "Graduation",
-    location: "Lahore, Pk",
-    description:
-      "I'll graduate in BS Software Engineering in 2024 from COMSATS, Lhr. Then I will work full-time.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024",
-  },
+  }
 ] as const;
 
 export const projectsData = [

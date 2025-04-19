@@ -1,16 +1,14 @@
 "use client";
 
-import Image from "next/image";
-import React from "react";
+import { useActiveSectionContext } from "@/context/active-section-context";
+import { useSectionInView } from "@/lib/hooks";
+import pic from '@/public/profile-pic.jpeg';
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
-import { useSectionInView } from "@/lib/hooks";
-import { useActiveSectionContext } from "@/context/active-section-context";
-import pic from '@/public/AdeelAhmad1.png'
-import darkPic from '@/public/dark.png'
-
+import UpworkLogo from "@/public/upwork-logo.png";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -66,9 +64,9 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Adeel.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">2+ years</span> of experience. I enjoy
+        <span className="font-bold">3+ years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="underline">Next.js and Gen AI</span>.
       </motion.h1>
 
       <motion.div
@@ -91,10 +89,17 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
+        <a
+          className="group bg-[#6FDA44] text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
+          href="https://www.upwork.com/freelancers/~018ad37dbf86a6b06e"
+          target="_blank"
+        >
+          Hire me on Upwork <Image src={UpworkLogo} alt="Upwork Logo" width={20} height={20} />
+        </a>
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://pk.linkedin.com/in/adeel-ahmad-7847311b9"
+          href="https://www.linkedin.com/in/devadeelahmad/"
           target="_blank"
         >
           <BsLinkedin />
@@ -107,11 +112,6 @@ export default function Intro() {
         >
           <FaGithubSquare />
         </a>
-        <p className="px-5 text-gray-700 dark:text-white/80 hover:underline-offset-4 hover:underline text-xl hover:scale-[1.15] focus:scale-[1.10] hover:text-violet-500 dark:hover:text-violet-500">
-        <Link href='https://linktr.ee/devadeelahmad'>
-          Linktr.ee
-        </Link>
-      </p>
       </motion.div>
     </section>
   );

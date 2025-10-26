@@ -1,4 +1,5 @@
 import printing from "@/public/3d-printing.webp";
+import autoOne from "@/public/AutoOne.png";
 import bOne from "@/public/B-one.png";
 import dbit from "@/public/DBIT - Mining Platform.png";
 import stupidMonkeys from "@/public/StupidMonkeys.png";
@@ -8,12 +9,10 @@ import linden from "@/public/linden1.png";
 import maxvid from "@/public/maxvid.webp";
 import mentalHq from "@/public/mentalHq.png";
 import nike from "@/public/nike.png";
-import autoOne from "@/public/AutoOne.png";
 import renaissance from "@/public/renaissance-art.webp";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 export const links = [
   {
     name: "Home",
@@ -91,7 +90,7 @@ export const projectsData = [
       "Web3",
     ],
     imageUrl: stupidMonkeys,
-    link: "https://stupid-monkeys.vercel.app/",
+    link: "https://www.stupidmonkeys.io/",
   },
   {
     title: "Nike Clone",

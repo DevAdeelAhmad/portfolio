@@ -3,8 +3,6 @@
 import { useRef } from "react";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { Project as ProjectType } from "@/lib/data-fetch";
-
 // Support both the original StaticImageData and string URLs
 type ProjectProps = {
   title: string;
@@ -20,7 +18,12 @@ export default function Project({
   tags,
   imageUrl,
 }: ProjectProps) {
-const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef<HTMLDivElement>(null);
+  const safeTags = Array.isArray(tags) ? tags : [];
+  const src =
+    typeof imageUrl === "string"
+      ? imageUrl
+      : imageUrl?.src ?? imageUrl?.default?.src ?? "";
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["0 1", "1.33 1"],
@@ -43,7 +46,7 @@ const ref = useRef<HTMLDivElement>(null);
             {description}
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
-            {tags.map((tag, index) => (
+            {safeTags.map((tag, index) => (
               <li
                 className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
                 key={index}
@@ -55,7 +58,7 @@ const ref = useRef<HTMLDivElement>(null);
         </div>
 
         <Image
-          src={imageUrl}
+          src={src}
           alt="Project I worked on"
           width={450}
           height={300}

@@ -1,20 +1,13 @@
-// Try to create Prisma client, fallback to null if not available
-let prisma: any = null;
+import { PrismaClient } from "@prisma/client";
 
-try {
-  // Dynamic import to avoid build issues
-  const { PrismaClient } = require('@prisma/client');
-  const globalForPrisma = globalThis as unknown as {
-    prisma: any
-  };
+const globalForPrisma = globalThis as unknown as {
+  prisma: PrismaClient | undefined;
+};
 
-  prisma = globalForPrisma.prisma ?? new PrismaClient({
-    log: ['query'],
+export const prisma: PrismaClient =
+  globalForPrisma.prisma ??
+  new PrismaClient({
+    log: process.env.NODE_ENV === "development" ? ["query"] : [],
   });
 
-  if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = prisma;
-} catch (error) {
-  console.log('Prisma client not available, using fallback data');
-}
-
-export { prisma };
+globalForPrisma.prisma = prisma;

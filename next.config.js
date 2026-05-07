@@ -10,6 +10,11 @@ const nextConfig = {
         hostname: "*.public.blob.vercel-storage.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "www.upwork.com",
+        pathname: "/att/**",
+      },
     ],
   },
 };

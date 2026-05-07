@@ -4,8 +4,61 @@ import { prisma } from "@/lib/db";
 import { put } from "@vercel/blob";
 import fs from "fs";
 import path from "path";
+import upworkPortfolioJson from "@/test.json";
 
-const projectsData = [
+type SeedProjectLocal = {
+  title: string;
+  description: string;
+  tags: string[];
+  imageFile: string;
+  link: string;
+  order: number;
+};
+
+type SeedProjectRemote = {
+  title: string;
+  description: string;
+  tags: string[];
+  imageUrl: string;
+  link: string;
+  order: number;
+};
+
+type SeedProject = SeedProjectLocal | SeedProjectRemote;
+
+type UpworkPortfolioRow = {
+  title: string;
+  description: string;
+  skills_and_deliverables: string[];
+  images: string[];
+  upwork_portfolio_url: string;
+  live_url?: string;
+};
+
+function upworkRowsToSeed(rows: UpworkPortfolioRow[]): SeedProjectRemote[] {
+  return rows.map((row, idx) => {
+    const link =
+      row.live_url != null && row.live_url.trim().length > 0
+        ? row.live_url.startsWith("http")
+          ? row.live_url
+          : `https://${row.live_url}`
+        : row.upwork_portfolio_url;
+    const imageUrl = row.images[0];
+    if (!imageUrl) {
+      throw new Error(`Upwork portfolio row "${row.title}" has no images`);
+    }
+    return {
+      title: row.title,
+      description: row.description,
+      tags: row.skills_and_deliverables,
+      imageUrl,
+      link,
+      order: idx + 1,
+    };
+  });
+}
+
+const legacyProjectsBase: Omit<SeedProjectLocal, "order">[] = [
   {
     title: "Stupid Monkeys",
     description:
@@ -13,7 +66,6 @@ const projectsData = [
     tags: ["NextJs", "ReactJs", "ThreeJs", "TypeScript", "Framer Motion", "IPFS", "Web3"],
     imageFile: "StupidMonkeys.png",
     link: "https://www.stupidmonkeys.io/",
-    order: 1,
   },
   {
     title: "Nike Clone",
@@ -22,7 +74,6 @@ const projectsData = [
     tags: ["NextJs", "ReactJs", "TypeScript", "TailwindCSS", "Shadcn/ui"],
     imageFile: "nike.png",
     link: "https://nike-adeelahmad.vercel.app/",
-    order: 2,
   },
   {
     title: "B-one Consulting",
@@ -31,7 +82,6 @@ const projectsData = [
     tags: ["NextJs", "Three.Js", "Framer Motion", "TailwindCSS", "TypeScript"],
     imageFile: "B-one.png",
     link: "https://b-one-consulting.vercel.app/",
-    order: 3,
   },
   {
     title: "Auto-one",
@@ -40,7 +90,6 @@ const projectsData = [
     tags: ["ReactJs", "Framer Motion", "TailwindCSS", "JavaScript"],
     imageFile: "AutoOne.png",
     link: "https://auto-one-dev.vercel.app/",
-    order: 4,
   },
   {
     title: "DBIT - Mining Platform",
@@ -49,7 +98,6 @@ const projectsData = [
     tags: ["NextJs", "React", "TailwindCSS", "TypeScript"],
     imageFile: "DBIT - Mining Platform.png",
     link: "https://dbit-devadeelahmad.vercel.app/",
-    order: 5,
   },
   {
     title: "Empyreal Attire",
@@ -58,7 +106,6 @@ const projectsData = [
     tags: ["NextJs", "React", "MongoDB", "TailwindCSS", "TypeScript", "AWS S3"],
     imageFile: "empyreal_attire.webp",
     link: "https://empyreal-attire.vercel.app/",
-    order: 6,
   },
   {
     title: "Mental HQ",
@@ -67,7 +114,6 @@ const projectsData = [
     tags: ["NextJs", "Typescript", "TailwindCSS", "Framer Motion"],
     imageFile: "mentalHq.png",
     link: "https://mental-hq.vercel.app/",
-    order: 7,
   },
   {
     title: "Linden Homes",
@@ -76,7 +122,6 @@ const projectsData = [
     tags: ["NextJs", "Typescript", "TailwindCSS", "Framer Motion"],
     imageFile: "linden1.png",
     link: "https://linden-homes.vercel.app/",
-    order: 8,
   },
   {
     title: "Renaissance Art",
@@ -85,7 +130,6 @@ const projectsData = [
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     imageFile: "renaissance-art.webp",
     link: "https://devadeelahmad.github.io/RenaissanceArt/",
-    order: 9,
   },
   {
     title: "Hope Medical",
@@ -94,7 +138,6 @@ const projectsData = [
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     imageFile: "hope-medical.webp",
     link: "https://devadeelahmad.github.io/HopeMedical/",
-    order: 10,
   },
   {
     title: "Max Vid",
@@ -103,7 +146,6 @@ const projectsData = [
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     imageFile: "maxvid.webp",
     link: "https://devadeelahmad.github.io/MaxVid/",
-    order: 11,
   },
   {
     title: "3d-Et",
@@ -112,9 +154,17 @@ const projectsData = [
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     imageFile: "3d-printing.webp",
     link: "https://devadeelahmad.github.io/3dPrinting/",
-    order: 12,
   },
 ];
+
+const upworkProjectsSeed = upworkRowsToSeed(upworkPortfolioJson as UpworkPortfolioRow[]);
+
+const legacyProjectsSeed: SeedProjectLocal[] = legacyProjectsBase.map((p, i) => ({
+  ...p,
+  order: upworkProjectsSeed.length + i + 1,
+}));
+
+const projectsData: SeedProject[] = [...upworkProjectsSeed, ...legacyProjectsSeed];
 
 const skillsData = [
   "NextJs",
@@ -240,7 +290,8 @@ export async function POST(request: Request) {
 
     const projectResults = [];
     for (const project of projectsData) {
-      const imageUrl = await uploadImage(project.imageFile);
+      const imageUrl =
+        "imageUrl" in project ? project.imageUrl : await uploadImage(project.imageFile);
       const created = await prisma.project.create({
         data: {
           title: project.title,

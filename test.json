@@ -1,0 +1,214 @@
+[
+    {
+      "page": 1,
+      "project_number": 1,
+      "title": "Sell AI Tool | Marketplace for Buying & Selling AI Tools",
+      "upwork_portfolio_url": "https://www.upwork.com/freelancers/~018ad37dbf86a6b06e?p=1977151902651654144",
+      "role": "Full-Stack Developer",
+      "published_date": "Oct 12, 2025",
+      "description": "Sell AI Tool is a SaaS marketplace that allows creators to list and sell their AI tools after revenue verification. Buyers can explore verified listings, chat in real time with sellers, and complete secure payments via Stripe. I built the platform using Next.js, TypeScript, Tailwind CSS, and Supabase, implementing domain verification, authentication, and marketplace management features.",
+      "skills_and_deliverables": ["Supabase", "Next.js", "Stripe", "Stripe API", "Stripe SDK"],
+      "images": [
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/207aa0f0-78d5-4dfc-af17-986bacb208c5",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/a223a090-4854-4ffe-a939-b6371597445d",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/88460d8d-cd32-41ff-a388-b39786bee385",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/fd209612-6977-4235-bf7f-1d3c8ab6173d",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/7fe05392-40dc-4a22-8c8e-b888e4aaf919",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/fe4d2b9b-62df-48a7-b045-098b803870a1",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/c057b5f6-deca-4830-9ae3-a6943f36d212",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/be3c47e2-3a2b-4ffc-9c26-08dfef205766",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/9ebf5c9e-5f2f-4b89-a042-7ae3664dd723",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/5988a2c0-5dc9-427e-9a37-b65ba6cb3de9"
+      ],
+      "image_count": 10
+    },
+    {
+      "page": 1,
+      "project_number": 2,
+      "title": "GreyFibre | AI-Powered Email Automation & Productivity Platform",
+      "upwork_portfolio_url": "https://www.upwork.com/freelancers/~018ad37dbf86a6b06e?p=1977144386834337792",
+      "role": "Software Engineer",
+      "published_date": "Oct 12, 2025",
+      "description": "GreyFibre is an AI-driven SaaS platform that transforms email communication into a sales and productivity engine. It helps businesses automate lead detection, client replies, invoice creation, and payment tracking directly from their inbox. I've been working on it for over a year, contributing to both frontend and backend using Next.js, Django, TypeScript, and Tailwind CSS, ensuring seamless integrations and a scalable architecture.",
+      "skills_and_deliverables": ["Django", "AI Development", "n8n", "Intuit QuickBooks", "Slack"],
+      "images": [
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/e0e9e438-6f18-43a0-84b6-c94149f51082",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/2023698d-453b-4814-b81a-dff30fc436e6",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/fe403f30-b557-4b8d-b6bf-d75bd2f9fd8e",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/e7328c4f-d2cf-4479-9ae6-5487312373ed",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/d17a0a50-ae4e-403b-b1a1-d07d21ec56b2",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/72b219cf-7907-4885-a261-f6acb541c890",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/57e7b957-db5b-4a4a-91ee-099aa4090379",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/0d785025-d410-43ad-8173-a062f8547f90",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/05fc67f4-fb3c-4b97-af51-04932f07ad42",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/9ebf5c9e-5f2f-4b89-a042-7ae3664dd723",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/5988a2c0-5dc9-427e-9a37-b65ba6cb3de9"
+      ],
+      "image_count": 11
+    },
+    {
+      "page": 1,
+      "project_number": 3,
+      "title": "Mech Protocol | Crypto Token Landing Page",
+      "upwork_portfolio_url": "https://www.upwork.com/freelancers/~018ad37dbf86a6b06e?p=1977135856600428544",
+      "role": "Front End Developer",
+      "published_date": "Oct 12, 2025",
+      "description": "Mech Protocol is a modern landing page built for a crypto trader from Pakistan to showcase a blockchain token. The site presents token details, whitepaper, use cases, founder info, and social links in a clean, animated layout. Developed with Next.js, TypeScript, Tailwind CSS, and Framer Motion, and deployed on Vercel for high performance.",
+      "skills_and_deliverables": ["Framer", "Next.js", "TypeScript", "Tailwind CSS", "React"],
+      "images": [
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/f7ca0906-b458-4a34-bd0d-79fdcde46890",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/a4d7cbe8-5dd7-4ce6-aedc-ac9db2e51acc",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/aef71e4f-d4ac-4f90-bb7d-94c96f597e0b",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/411b51eb-541b-4ac3-bdee-992e6adf90a4",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/11ca4d8f-0aed-46ec-89f9-86517f5db8ba",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/05fc67f4-fb3c-4b97-af51-04932f07ad42",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/be3c47e2-3a2b-4ffc-9c26-08dfef205766",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/5988a2c0-5dc9-427e-9a37-b65ba6cb3de9"
+      ],
+      "image_count": 8
+    },
+    {
+      "page": 2,
+      "project_number": 4,
+      "title": "PropStack AI | AI-Powered Property Management Platform",
+      "upwork_portfolio_url": "https://www.upwork.com/freelancers/~018ad37dbf86a6b06e?p=1977132466628599808",
+      "role": "Full Stack Developer",
+      "published_date": "Oct 12, 2025",
+      "description": "PropStack AI is a property management and real estate insights platform built for a US client. It helps users analyze properties, view listings for sale, and make purchases directly through the platform. I developed the frontend using Next.js, TypeScript, Tailwind CSS, and Zustand, featuring an interactive US map and AI-driven insights dashboard.",
+      "skills_and_deliverables": ["Mapbox", "Next.js", "TypeScript", "Redux", "Google Maps"],
+      "images": [
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/94add6af-4a72-48a0-b392-93625830c6d0",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/8380a6e4-b03b-4f87-b7db-f6d81f076334",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/e0f318dd-aa12-44bb-ad52-f4fe79797972",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/ffab6422-2c0e-471f-ae7d-c5fbf2301c74",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/21c04ac3-1293-4d1d-8fd5-853bc566f955"
+      ],
+      "image_count": 5
+    },
+    {
+      "page": 2,
+      "project_number": 5,
+      "title": "Viseon AI | SaaS Platform for Dropshipping Product Research",
+      "upwork_portfolio_url": "https://www.upwork.com/freelancers/~018ad37dbf86a6b06e?p=1977128302524547072",
+      "role": "Frontend Developer",
+      "published_date": "Oct 12, 2025",
+      "description": "Viseon AI is a SaaS tool built for dropshippers to discover, validate, and source winning products using data-driven insights. I worked on the frontend using React.js, Nuxt.js, and Vue.js, integrating APIs, optimizing performance, and ensuring a smooth, modern UI with Tailwind CSS and Cloudflare deployment.",
+      "skills_and_deliverables": ["React", "Nuxt.js", "Vue.js", "Cloudflare", "styled-components"],
+      "images": [
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/00ffba73-cc91-45fe-a105-e01f9673103e",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/0144937f-4586-44dc-a2ad-412e3be65d58",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/110fbbed-3afb-4d57-98f5-a7d7943240c4",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/5498e002-e3bc-4f8a-a6de-f36f0f940ff7",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/a51a75f6-2208-4f66-bcbf-bca8655592da",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/5988a2c0-5dc9-427e-9a37-b65ba6cb3de9",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/21c04ac3-1293-4d1d-8fd5-853bc566f955"
+      ],
+      "image_count": 7
+    },
+    {
+      "page": 2,
+      "project_number": 6,
+      "title": "Market Wizards Hub | Crypto Education & Portfolio Website",
+      "upwork_portfolio_url": "https://www.upwork.com/freelancers/~018ad37dbf86a6b06e?p=1977112965809901568",
+      "role": "Front End Developer",
+      "published_date": "Oct 12, 2025",
+      "description": "Market Wizards Hub is a portfolio and announcement website built for a crypto trader in Pakistan. It showcases trading insights, courses, and signal updates. I developed a pixel-perfect frontend from Figma using Next.js, TypeScript, and Tailwind CSS, with Supabase for content and authentication management.",
+      "skills_and_deliverables": ["Next.js", "Figma", "Meta Pixel", "Tailwind CSS", "Supabase"],
+      "images": [
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/06f70f8a-dda1-4527-9e26-046dd2a921c8",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/09b45727-5f6b-4359-9f70-4f655c3a1171",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/18518375-39d4-47bb-a235-4b3d9bfac2fc",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/6526a294-a0bf-413d-8edc-fda82d410d38",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/5988a2c0-5dc9-427e-9a37-b65ba6cb3de9",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/ffab6422-2c0e-471f-ae7d-c5fbf2301c74"
+      ],
+      "image_count": 6
+    },
+    {
+      "page": 3,
+      "project_number": 7,
+      "title": "Kinterak | SaaS Platform for Interactive Video Storytelling",
+      "upwork_portfolio_url": "https://www.upwork.com/freelancers/~018ad37dbf86a6b06e?p=1977107102520868864",
+      "role": "Front End Developer",
+      "published_date": "Oct 12, 2025",
+      "description": "Kinterak is a SaaS platform that allows users to record, store, and share high-quality video messages to preserve their stories and memories for loved ones. Built with Next.js, TypeScript, and SCSS, it features subscription billing via Stripe and a smooth, responsive user experience designed for scalability and emotional impact.",
+      "skills_and_deliverables": ["Next.js", "TypeScript", "SCSS", "Video Upload", "Amazon S3"],
+      "images": [
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/d626d88c-8f2e-4f33-b495-94b7e126e85d",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/a5840bc1-f718-472c-a9d3-4cbb71276adb",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/3aba5695-dfcb-4526-a20b-452b2caee783",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/98213353-9833-4139-8dd7-4560c4621f06",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/4d4896f8-4baf-4daa-b039-3cdb5a67b3f5",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/e9f4d2fb-6b0a-47af-acff-25489d0f8b95"
+      ],
+      "image_count": 6
+    },
+    {
+      "page": 3,
+      "project_number": 8,
+      "title": "AG Service Desk | SaaS App for Agriculture Service & Repair Management",
+      "upwork_portfolio_url": "https://www.upwork.com/freelancers/~018ad37dbf86a6b06e?p=1977103901696491520",
+      "role": "Full-Stack Developer",
+      "published_date": "Oct 12, 2025",
+      "description": "AG Service Desk is a SaaS app built for a UK client to help agriculture businesses manage service and repair tickets. It supports custom subdomains for each business, Stripe-based billing, and role-based access. I developed it using Next.js, TypeScript, Tailwind CSS, ShadCN UI, Prisma, and PostgreSQL.",
+      "skills_and_deliverables": ["Next.js", "React", "TypeScript", "Tailwind CSS", "PostgreSQL"],
+      "images": [
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/4302cd5b-13d9-40ea-a527-f5fc7a48c4cb",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/460556de-cd61-4495-b708-3e5ec854eeed",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/43ee2cc1-21f9-4e8b-aa72-f82b1f0ec848",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/b327a980-4912-4c47-9655-12d40ee23d68",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/4670d58a-b1c4-4e16-9e90-3e72d7356393",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/bec42f23-b000-494f-a0f0-9bf5266ee4ae",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/6ca54561-41f2-4f9f-950f-fd10aac582b2",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/e9f4d2fb-6b0a-47af-acff-25489d0f8b95"
+      ],
+      "image_count": 8
+    },
+    {
+      "page": 3,
+      "project_number": 9,
+      "title": "BeerGo Games | E-commerce Store for Card Games",
+      "upwork_portfolio_url": "https://www.upwork.com/freelancers/~018ad37dbf86a6b06e?p=1977098645071757312",
+      "role": "Full Stack Developer",
+      "published_date": "Oct 12, 2025",
+      "description": "BeerGo Games is a modern e-commerce web app built for a German client selling a small range of fun card games like UNO. The goal was to create a fast, clean, and conversion-focused shopping experience. I developed the entire frontend using Next.js, TypeScript, Tailwind CSS, and ShadCN UI, implementing all core e-commerce features including authentication, product catalog, cart management, and Stripe checkout. The result is a responsive, lightweight, and scalable store that delivers a smooth user experience on all devices.",
+      "skills_and_deliverables": ["Next.js", "Stripe", "Tailwind CSS", "TypeScript", "Ecommerce"],
+      "images": [
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/8cd9a593-52bb-4c1f-8a74-e5a18ac42bf2",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/9ba65966-6c71-4815-b4bc-86e716793a92",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/1d939992-c160-4fae-8446-26a32fa04f66",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/42597975-149b-490d-a1d6-309b210b151d",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/6ca54561-41f2-4f9f-950f-fd10aac582b2",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/4d4896f8-4baf-4daa-b039-3cdb5a67b3f5"
+      ],
+      "image_count": 6
+    },
+    {
+      "page": 4,
+      "project_number": 10,
+      "title": "Organic Link V1",
+      "upwork_portfolio_url": "https://www.upwork.com/freelancers/~018ad37dbf86a6b06e?p=1831379253657890816",
+      "role": "Full Stack Developer",
+      "published_date": "Sep 4, 2024",
+      "description": "OrganicLink is a LinkedIn automation platform that connects to users' LinkedIn accounts. Users can upload CSV files with LinkedIn URLs, create advanced campaigns featuring AI-driven messaging, automated reply handling, and more. The platform also enables users to send direct messages and track campaign reach and impressions directly through the app.",
+      "skills_and_deliverables": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js"],
+      "associated_job": {
+        "title": "Dynamic Full Stack Developer Needed for Long-Term SAAS Projects (Next.js/Typescript/Tailwind)",
+        "rating": "5.0",
+        "review": "Adeel is a very disciplined and hard working person, he has professional development knowledge and is communicating very well. I'd recommend him without hesitation!"
+      },
+      "live_url": "app.organiclink.io",
+      "images": [
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/7d8e4d5c-d1d3-446a-b98d-eba3de2299ff",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/469f099b-e104-44cd-979f-12aa36c2106d",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/c3004320-359d-4e80-9577-7fab46b7b115",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/c48b7de9-6ec3-4721-ac7d-9f05229b5da4",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/f7a2daac-530c-4ffc-9a6f-ec0cc91868ac",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/b20de0e5-fe6d-4280-af6a-b1e78bd07d2c",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/a5c07435-7dab-47c4-85d0-0491a039155e",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/bf41bc85-91b1-42a5-b5f8-9e1502809614",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1694077432982884352/profile/projects/files/7eda0709-6035-4ec9-80ca-ef2d05065716"
+      ],
+      "image_count": 9
+    }
+  ]
